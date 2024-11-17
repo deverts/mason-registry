@@ -1,0 +1,19 @@
+---
+name: pkl-lsp
+description: A language server for Pkl.
+homepage: https://github.com/apple/pkl-lsp
+licenses:
+  - Apache-2.0
+languages:
+  - Pkl
+categories:
+  - LSP
+
+source:
+  id: pkg:github/apple/pkl-lsp@0.1.1
+  asset:
+    file: "pkl-lsp-{{version}}.jar"
+
+share:
+  pkl-lsp/pkl-lsp.jar: pkl-lsp-{{version}}.jar
+
